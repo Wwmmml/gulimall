@@ -33,7 +33,7 @@ public class CouponController {
     @Autowired
     private CouponService couponService;
 
-    @Value("${coupon.user.name}")
+    @Value("${test1218}")
     private String name;
     @Value("${coupon.user.age}")
     private Integer age;
